@@ -30,7 +30,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 5px 0;
+    padding: 3px 0;
     background: rgba(45, 11, 58, 0.8); /* خلفية داكنة متناغمة مع التصميم */
     backdrop-filter: blur(10px); 
     position: fixed;
@@ -298,18 +298,18 @@ footer {
 /* تنسيق خاص للموبايل فقط */
 @media (max-width: 768px) {
     nav {
-        padding: 10px 5px; /* تصغير ارتفاع الشريط */
+        padding: 5px 3px; /* تصغير ارتفاع الشريط */
         justify-content: space-between; /* توزيع العناصر بشكل أفضل */
     }
 
     nav .logo {
-        font-size: 1.2rem; /* تصغير حجم اللوجو */
+        font-size: 1rem; /* تصغير حجم اللوجو */
         margin-left: 15px;
     }
 
     nav ul {
         display: flex; /* التأكد إن القائمة تظهر */
-        gap: 10px; /* تقليل المسافة بين الكلمات */
+        gap: 8px; /* تقليل المسافة بين الكلمات */
         margin-right: 10px;
     }
 
@@ -318,6 +318,6 @@ footer {
     }
 
     nav ul li a {
-        font-size: 0.85rem; /* تصغير حجم خط (Home, Skills, etc.) */
+        font-size: 0.65rem; /* تصغير حجم خط (Home, Skills, etc.) */
     }
 }
