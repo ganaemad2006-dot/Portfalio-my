@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Creative Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">My Portfolio</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <div class="profile-image-container">
+                <img src="Picsart_25-02-11_13-50-04-937.jpg" alt="Your Profile Picture" class="profile-image">
+            </div>
+            <h1>Hi, I'm <span class="highlight">Gana Emad </span></h1>
+            <p>Aspiring <b>Software Engineer</b> | .NET Backend Developer</p>
+            <p>Building scalable and high-performance server-side applications.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 data-aos="fade-down">About Me</h2>
+        <div class="about-content" data-aos="fade-up">
+            <p>I am a passionate and driven web developer with a strong foundation in front-end and a growing interest in back-end technologies. My goal is to create innovative and user-friendly applications that make a difference.</p>
+            <p>I enjoy learning new technologies and constantly challenging myself to improve my skills. When I'm not coding, you can find me exploring new design trends or contributing to open-source projects.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 data-aos="fade-down">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card" data-aos="zoom-in">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+            </div>
+            <div class="skill-card" data-aos="zoom-in">
+            <i class="fas fa-file-code"></i>
+            <h3>C++</h3>
+            </div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+                <i class="fas fa-brain"></i>
+                <h3>Problem Solving</h3>
+                <p>Solving complex logic with C++</p>
+            </div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
+                <i class="fas fa-cubes"></i>
+                <h3>OOP</h3>
+                <p>Object Oriented Programming</p>
+            </div>
+            </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 data-aos="fade-up">My Projects</h2>
+        <div class="projects-container">
+            <div class="project-card" data-aos="flip-left">
+                <img src="project1.jpg" alt="Project 1 Image" class="project-img">
+                <div class="project-info">
+                    <h3>Person</h3>
+                    <p>A brief description of this project, highlighting its key features and the technologies used (C++ , OOP).</p>
+                    <a href="Person Exercise - Requirements/" target="_blank" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="project-card" data-aos="flip-right">
+                <img src="project2.jpg" alt="Project 2 Image" class="project-img">
+                <div class="project-info">
+                    <h3>Project Name Two</h3>
+                    <p>Another exciting project showcasing my skills in X, Y, and Z. This was a challenging but rewarding build.</p>
+                    <a href="link-to-project2.com" target="_blank" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 data-aos="fade-down">Get in Touch</h2>
+        <div class="contact-content" data-aos="fade-up">
+            <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+            <div class="contact-links">
+                <a href="mailto:gana.emad.123456@gmail.com" class="contact-btn"><i class="fas fa-envelope"></i> Email Me</a>
+                <a href="https://www.linkedin.com/in/gana-emad-87b4b3340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="contact-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/yourusername" target="_blank" class="contact-btn"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Made with ❤️ by Your Name &copy; 2026</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+    </script>
+</body>
+</html>
