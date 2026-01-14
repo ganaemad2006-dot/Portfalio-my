@@ -295,3 +295,29 @@ footer {
 @media (max-width: 768px) {
     nav { background: rgba(45, 11, 58, 0.95); }
 }
+/* تنسيق خاص للموبايل فقط */
+@media (max-width: 768px) {
+    nav {
+        padding: 10px 5px; /* تصغير ارتفاع الشريط */
+        justify-content: space-between; /* توزيع العناصر بشكل أفضل */
+    }
+
+    nav .logo {
+        font-size: 1.2rem; /* تصغير حجم اللوجو */
+        margin-left: 15px;
+    }
+
+    nav ul {
+        display: flex; /* التأكد إن القائمة تظهر */
+        gap: 10px; /* تقليل المسافة بين الكلمات */
+        margin-right: 10px;
+    }
+
+    nav ul li {
+        margin: 0 5px; /* تقليل المسافات الجانبية */
+    }
+
+    nav ul li a {
+        font-size: 0.85rem; /* تصغير حجم خط (Home, Skills, etc.) */
+    }
+}
