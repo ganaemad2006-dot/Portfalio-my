@@ -30,7 +30,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0;
+    padding: 5px 0;
     background: rgba(45, 11, 58, 0.8); /* خلفية داكنة متناغمة مع التصميم */
     backdrop-filter: blur(10px); 
     position: fixed;
